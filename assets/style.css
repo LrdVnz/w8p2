@@ -1,3 +1,11 @@
+.navbar {
+    background-color: #f3f9f9;
+}
+
+#title {
+    vertical-align: middle;
+}
+
 .carousel-inner {
     height: 600px;
 }
@@ -7,3 +15,16 @@
     width: 400px; 
     height: 300px; 
 }
+
+.country-container {
+    position: relative;
+}
+
+.country-text {
+    color: white;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
