@@ -6,6 +6,10 @@
     vertical-align: middle;
 }
 
+#jumbo-text {
+    width: 100%; 
+}
+
 .carousel-inner {
     height: 600px;
 }
