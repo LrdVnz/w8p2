@@ -1,0 +1,19 @@
+img {
+  object-fit: cover;
+}
+
+#week-offers img {
+  height: 300px;
+}
+
+#welcome-summer img {
+  height: 250px;
+}
+
+#day-offer img {
+  height: 400px;
+}
+
+#last-minute img {
+  height: 300px;
+}
