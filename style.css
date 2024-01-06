@@ -17,3 +17,8 @@ img {
 #last-minute img {
   height: 300px;
 }
+
+#carouselExampleIndicators img {
+  height: 300px;
+  width: 100%;
+}
