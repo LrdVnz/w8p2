@@ -2,6 +2,11 @@ img {
   object-fit: cover;
 }
 
+.card {
+  background-color: #fbfdff;
+  border: 1;
+}
+
 #week-offers img {
   height: 300px;
 }
@@ -18,11 +23,12 @@ img {
   height: 300px;
 }
 
-#carouselExampleIndicators img {
-  height: 300px;
-  width: 100%;
-}
-
 .list-group-item {
   background-color: #e2e3e5;
+}
+
+.user-profile-pic {
+  height: 300px; 
+  width: 250px; 
+  margin: auto; 
 }
