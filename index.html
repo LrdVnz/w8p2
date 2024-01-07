@@ -13,7 +13,7 @@
     <title>Travelboss</title>
   </head>
   <body class="bg-body-secondary">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
@@ -42,41 +42,40 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#offerte-della-settimana">Offerte della settimana</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+              <a class="nav-link" href="#offerte-della-settimana"
+                >Offerte della settimana</a
               >
-                Altro
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#welcome-summer">Welcome Summer</a></li>
-                <li><a class="dropdown-item" href="#last-minute">Offerta Last minute</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#recensioni">Recensioni</a>
-                </li>
-              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#welcome-summer">Welcome Summer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#last-minute">Offerta Last minute</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#recensioni">Recensioni</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="container-fluid p-0 pb-3">
-      <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+    <div class="container-fluid p-0 pb-3" id="jumbotron">
+      <img
+        src="assets/jumbotron-bg.jpeg"
+        alt="Uomo nel deserto"
+        id="jumbo-bg"
+      />
+      <div class="p-5 mb-4 rounded-3">
         <div
           class="container-fluid py-5 align-items-center justify-content-center"
+          id="jumbo-text"
         >
-          <h1 class="display-5 fw-bold text-center">TravelBoss</h1>
+          <h1 class="display-5 fw-bold text-center text-primary">TravelBoss</h1>
           <p class="d-block col-md-8 fs-4 m-auto">
-             Siamo un'agenzia di viaggi che mette l'esperienza del cliente al primo posto.
-              Goditi il viaggio al mare, in montagna, nel tuo posto da sogno. Senza pensieri. Affidati a <b>#TravelBoss</b>          
+            Siamo un'agenzia di viaggi che mette l'esperienza del cliente al
+            primo posto. Goditi il viaggio al mare, in montagna, nel tuo posto
+            da sogno. Senza pensieri. Affidati a <b>#TravelBoss</b>
           </p>
         </div>
       </div>
@@ -223,7 +222,10 @@
       </div>
     </div>
 
-    <div class="container-fluid m-3 m-sm-1 p-4 d-sm-none d-md-block" id="offerta-del-giorno">
+    <div
+      class="container-fluid m-3 m-sm-1 p-4 d-sm-none d-md-block"
+      id="offerta-del-giorno"
+    >
       <h1 class="text-center pb-5">Offerta del giorno</h1>
 
       <div class="card mb-3 w-75 m-auto" id="day-offer">
@@ -252,7 +254,6 @@
     </div>
 
     <div class="container-fluid m-3 m-sm-1 p-3">
-
       <div class="row">
         <div class="col-md-6 col-12">
           <div class="w-75 my-5 mx-auto" id="last-minute">
@@ -271,7 +272,9 @@
                       OFFERTA LAST MINUTE!!!!!!!
                     </h5>
                     <p class="card-text">
-                      Ultima chance ! Goditi un campeggio sugli appennini con la nostra offerta compresa di tende e attrezzatura da campeggio !
+                      Ultima chance ! Goditi un campeggio sugli appennini con la
+                      nostra offerta compresa di tende e attrezzatura da
+                      campeggio !
                     </p>
                     <a href="#" class="btn btn-secondary">199.99€</a>
                   </div>
@@ -311,7 +314,7 @@
                 </div>
               </div>
 
-              <div class="carousel-item" >
+              <div class="carousel-item">
                 <div class="card w-50 m-auto text-center">
                   <img
                     src="assets/user-profile.webp"
@@ -391,16 +394,52 @@
       <div class="row g-0 pt-3">
         <div class="col-md-4 col-12">
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="" class="link-secondary link-underline link-underline-opacity-25">Home</a></li>
-            <li class="list-group-item"><a href="" class="link-secondary link-underline link-underline-opacity-25">Contattaci:</a></li>
-            <li class="list-group-item"><a href="" class="link-secondary link-underline link-underline-opacity-25">+034 334876</a></li>
-            <li class="list-group-item"><a href="" class="link-secondary link-underline link-underline-opacity-25">info@travelboss.com</a></li>
+            <li class="list-group-item">
+              <a
+                href=""
+                class="link-secondary link-underline link-underline-opacity-25"
+                >Home</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a
+                href=""
+                class="link-secondary link-underline link-underline-opacity-25"
+                >Contattaci:</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a
+                href=""
+                class="link-secondary link-underline link-underline-opacity-25"
+                >+034 334876</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a
+                href=""
+                class="link-secondary link-underline link-underline-opacity-25"
+                >info@travelboss.com</a
+              >
+            </li>
           </ul>
         </div>
         <div class="col-md-4 col-12">
           <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="" class="link-secondary link-underline link-underline-opacity-25">Lavora con noi</a></li>
-            <li class="list-group-item"><a href="" class="link-secondary link-underline link-underline-opacity-25">FAQ</a></li>
+            <li class="list-group-item">
+              <a
+                href=""
+                class="link-secondary link-underline link-underline-opacity-25"
+                >Lavora con noi</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a
+                href=""
+                class="link-secondary link-underline link-underline-opacity-25"
+                >FAQ</a
+              >
+            </li>
           </ul>
         </div>
         <div class="col-md-4 col-12">
